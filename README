@@ -1,0 +1,13 @@
+# Conway's Game Of Life in CoffeeScript
+
+## Overview
+
+I wrote this to teach myself some coffeescript. By making a new GameOfLife object, you can use setInterval to animate over generations (see example.coffee).
+It also tracks generations so you can halt your animation when it reaches a stable state, taking into account oscillating patterns.
+
+## Dependencies
+
+### Optional
+
+json2.js for JSON serialization, if you want to run in older browsers that dont automatically support JSON.
+:	https://github.com/douglascrockford/JSON-js
